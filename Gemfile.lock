@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-suunto (0.0.2)
+    omniauth-suunto (0.0.3)
       omniauth-oauth2 (~> 1.6)
 
 GEM
