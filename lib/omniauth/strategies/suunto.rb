@@ -3,8 +3,6 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class Suunto < OmniAuth::Strategies::OAuth2
-      option :name, "suunto"
-
       option :client_options, {
         site: 'https://cloudapi-oauth.suunto.com',
         authorize_url: '/oauth/authorize',
